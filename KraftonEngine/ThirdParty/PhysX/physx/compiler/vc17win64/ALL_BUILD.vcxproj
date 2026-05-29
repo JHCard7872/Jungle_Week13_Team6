@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F84683CA-FFDB-3EB3-B397-10A315C7ED46}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\public\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\ZERO_CHECK.vcxproj">
+      <Project>{B2D8D989-DCA1-3019-B1C8-CD829EF502BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\FastXml.vcxproj">
+      <Project>{1AB47AF7-9B81-39CF-8BAD-83453A036509}</Project>
+      <Name>FastXml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\LowLevel.vcxproj">
+      <Project>{8BD669F1-B257-331F-BD8B-CEA75F16170C}</Project>
+      <Name>LowLevel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\LowLevelAABB.vcxproj">
+      <Project>{AE43E26E-054F-3D61-93D8-8B5B90AED2E7}</Project>
+      <Name>LowLevelAABB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\LowLevelDynamics.vcxproj">
+      <Project>{5821F602-0B88-36A9-B5D3-20A56CF894FC}</Project>
+      <Name>LowLevelDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysX.vcxproj">
+      <Project>{08CAFCC2-E6AD-3CD4-AD98-A85D951B187D}</Project>
+      <Name>PhysX</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
+      <Project>{E01BBD29-E0D9-3FEF-B1FB-783260E97842}</Project>
+      <Name>PhysXCharacterKinematic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXCommon.vcxproj">
+      <Project>{D7B080D5-EF55-3238-A84C-B90BAE4BED89}</Project>
+      <Name>PhysXCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXCooking.vcxproj">
+      <Project>{A642A098-9B0C-329C-AD0E-CCA153916A1C}</Project>
+      <Name>PhysXCooking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{CDBD9E91-A9E4-3AA2-9C56-B47BD5F14348}</Project>
+      <Name>PhysXExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{77A303CA-9867-3469-BF9C-1AAAC63392F5}</Project>
+      <Name>PhysXFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{A0239BD0-DB04-33A8-8C5D-576A93D5E60F}</Project>
+      <Name>PhysXPvdSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXTask.vcxproj">
+      <Project>{7371E1AF-D9BC-31FE-92D9-502048623005}</Project>
+      <Name>PhysXTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXVehicle.vcxproj">
+      <Project>{AA5A4D5E-DFA4-3326-9D8E-89AF7327FB10}</Project>
+      <Name>PhysXVehicle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_samples_bin\SampleBase.vcxproj">
+      <Project>{1376DB2C-6FA8-351A-8619-03EC39A0589A}</Project>
+      <Name>SampleBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_samples_bin\SampleFramework.vcxproj">
+      <Project>{C4E71AF7-D9E8-3907-9D76-517C31596518}</Project>
+      <Name>SampleFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_samples_bin\SamplePlatform.vcxproj">
+      <Project>{5686D928-8905-3664-8CA2-1CB60DD619C6}</Project>
+      <Name>SamplePlatform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_samples_bin\SampleRenderer.vcxproj">
+      <Project>{8B7FE1AB-DD85-379C-A724-795F3F012B65}</Project>
+      <Name>SampleRenderer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_samples_bin\SampleToolkit.vcxproj">
+      <Project>{102F7CBD-3265-3A47-A7E8-A9462C3238B8}</Project>
+      <Name>SampleToolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_samples_bin\Samples.vcxproj">
+      <Project>{C8E6F03D-25FB-3219-BC83-F918D5B26E21}</Project>
+      <Name>Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\SceneQuery.vcxproj">
+      <Project>{CE493B56-3B3F-3F61-BF4E-89B6DC6A9BFD}</Project>
+      <Name>SceneQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\SimulationController.vcxproj">
+      <Project>{2EB3F510-59E2-3A86-873B-75B76E1C221F}</Project>
+      <Name>SimulationController</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetArticulation.vcxproj">
+      <Project>{45B96347-E72E-3C41-B252-98543C1DC36C}</Project>
+      <Name>SnippetArticulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetBVHStructure.vcxproj">
+      <Project>{2601DE54-4764-3BCB-8EC9-6DB85D81CE67}</Project>
+      <Name>SnippetBVHStructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetContactModification.vcxproj">
+      <Project>{A610E9A5-70AA-3EFB-875F-8EE16E98EEDD}</Project>
+      <Name>SnippetContactModification</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetContactReport.vcxproj">
+      <Project>{319D9A77-8300-3C6C-9A5F-D8E31DDBD1F1}</Project>
+      <Name>SnippetContactReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetContactReportCCD.vcxproj">
+      <Project>{4174B2F1-D9EB-330B-9744-797254049F75}</Project>
+      <Name>SnippetContactReportCCD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetConvert.vcxproj">
+      <Project>{AB3231BD-8CD8-3A3C-B338-2F9B0D0DF9C0}</Project>
+      <Name>SnippetConvert</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetConvexMeshCreate.vcxproj">
+      <Project>{11549CAB-CB5E-30C8-A0CF-8E8F394711DD}</Project>
+      <Name>SnippetConvexMeshCreate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetCustomJoint.vcxproj">
+      <Project>{4A9D4D15-37A2-37EA-B5CC-73312C1F4E9F}</Project>
+      <Name>SnippetCustomJoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetCustomProfiler.vcxproj">
+      <Project>{56F05791-9027-3320-983C-B8F93060E19B}</Project>
+      <Name>SnippetCustomProfiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetDeformableMesh.vcxproj">
+      <Project>{9A00FB1A-CB80-3756-88F5-BC2E46B55E17}</Project>
+      <Name>SnippetDeformableMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetDelayLoadHook.vcxproj">
+      <Project>{2448B3E5-8001-3834-9C19-31B4397FB2CF}</Project>
+      <Name>SnippetDelayLoadHook</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetHelloGRB.vcxproj">
+      <Project>{39E1FDDC-2074-314B-9CFB-19595D693274}</Project>
+      <Name>SnippetHelloGRB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetHelloWorld.vcxproj">
+      <Project>{B02B338C-D1B1-33E9-ADF7-680E1F0A06D0}</Project>
+      <Name>SnippetHelloWorld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetImmediateArticulation.vcxproj">
+      <Project>{C801722F-D1D1-30B6-BC3D-6052623FFE2C}</Project>
+      <Name>SnippetImmediateArticulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetImmediateMode.vcxproj">
+      <Project>{668EAB33-16AF-36C3-8243-3F0CD15A6FC0}</Project>
+      <Name>SnippetImmediateMode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetJoint.vcxproj">
+      <Project>{6D33FC38-A25C-33A3-8C3A-29821AD2E4C0}</Project>
+      <Name>SnippetJoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetLoadCollection.vcxproj">
+      <Project>{8CBAAA36-675C-390D-98D0-70783549C889}</Project>
+      <Name>SnippetLoadCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetMBP.vcxproj">
+      <Project>{0EE19BD7-A907-32AF-8684-8B5EA69987E1}</Project>
+      <Name>SnippetMBP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetMultiThreading.vcxproj">
+      <Project>{69CBE6BC-24C4-312D-A1A6-8625D5346CFF}</Project>
+      <Name>SnippetMultiThreading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetNestedScene.vcxproj">
+      <Project>{E7273B6E-4F13-30AC-AA9D-0AE59B309AC3}</Project>
+      <Name>SnippetNestedScene</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetPrunerSerialization.vcxproj">
+      <Project>{97513C65-A58E-36B3-9DB2-09D2BA4F0587}</Project>
+      <Name>SnippetPrunerSerialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetRaycastCCD.vcxproj">
+      <Project>{72992912-8388-3AD1-A3BC-220CB9D99946}</Project>
+      <Name>SnippetRaycastCCD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetRender.vcxproj">
+      <Project>{C9C0C4A2-E8BA-3D3B-94E7-2DE04E97B72F}</Project>
+      <Name>SnippetRender</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetSerialization.vcxproj">
+      <Project>{80DCEDE0-815C-3881-A91F-294716E907F9}</Project>
+      <Name>SnippetSerialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetSplitFetchResults.vcxproj">
+      <Project>{151E1C72-6B37-3351-978B-11FB81625CEA}</Project>
+      <Name>SnippetSplitFetchResults</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetSplitSim.vcxproj">
+      <Project>{01B5AA3A-CB27-33BB-A356-DC4D4C1D0C10}</Project>
+      <Name>SnippetSplitSim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetStepper.vcxproj">
+      <Project>{65D3619A-FA45-3058-A820-355068ADEC09}</Project>
+      <Name>SnippetStepper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetToleranceScale.vcxproj">
+      <Project>{3A2CC16B-D9AD-322B-B736-41B84EF96123}</Project>
+      <Name>SnippetToleranceScale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetTriangleMeshCreate.vcxproj">
+      <Project>{1E1DA089-306B-30D7-BACE-7437315F8F5F}</Project>
+      <Name>SnippetTriangleMeshCreate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetTriggers.vcxproj">
+      <Project>{2FA793ED-68BD-3CE3-A645-E70DD1760EAF}</Project>
+      <Name>SnippetTriggers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetUtils.vcxproj">
+      <Project>{4DE89D22-F86D-3675-B051-259AE1EDEEA5}</Project>
+      <Name>SnippetUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetVehicle4W.vcxproj">
+      <Project>{356DC45E-54E7-3DE5-A734-EDC5805E4351}</Project>
+      <Name>SnippetVehicle4W</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetVehicleContactMod.vcxproj">
+      <Project>{1E27CE56-56AF-3016-9815-A793D6B94F63}</Project>
+      <Name>SnippetVehicleContactMod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetVehicleMultiThreading.vcxproj">
+      <Project>{A7E739C1-D7E7-3DE3-9386-1B3011547007}</Project>
+      <Name>SnippetVehicleMultiThreading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetVehicleNoDrive.vcxproj">
+      <Project>{647A5D2A-0DF7-32D6-B188-77073917A516}</Project>
+      <Name>SnippetVehicleNoDrive</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetVehicleScale.vcxproj">
+      <Project>{35FD8E1A-9885-323E-BE31-4A04EB9B9A80}</Project>
+      <Name>SnippetVehicleScale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_snippets_bin\SnippetVehicleTank.vcxproj">
+      <Project>{E1CD87D3-4F54-35BE-BE5B-C381204B54C4}</Project>
+      <Name>SnippetVehicleTank</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

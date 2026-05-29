@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\CMakeFiles\ff65dc6d69dba7d08d16dcc7af2917f7\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{20598E34-B741-304A-AE27-F65ED151826D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

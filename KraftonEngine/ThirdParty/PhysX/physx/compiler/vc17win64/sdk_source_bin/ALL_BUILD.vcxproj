@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F84683CA-FFDB-3EB3-B397-10A315C7ED46}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\GetCompilerAndPlatform.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\NvidiaBuildOptions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\SetOutputPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\template\PxIncludeTemplate.h;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SimulationController.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\GetCompilerAndPlatform.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\NvidiaBuildOptions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\SetOutputPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\template\PxIncludeTemplate.h;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SimulationController.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\GetCompilerAndPlatform.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\NvidiaBuildOptions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\SetOutputPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\template\PxIncludeTemplate.h;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SimulationController.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/public -BC:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/jungle/source/repos/Jungle_Week13_Team6/KraftonEngine/ThirdParty/PhysX/physx/compiler/vc17win64/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\GetCompilerAndPlatform.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\NvidiaBuildOptions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\SetOutputPaths.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\externals\CMakeModules\template\PxIncludeTemplate.h;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\SimulationController.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\ZERO_CHECK.vcxproj">
+      <Project>{B2D8D989-DCA1-3019-B1C8-CD829EF502BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\FastXml.vcxproj">
+      <Project>{1AB47AF7-9B81-39CF-8BAD-83453A036509}</Project>
+      <Name>FastXml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\LowLevel.vcxproj">
+      <Project>{8BD669F1-B257-331F-BD8B-CEA75F16170C}</Project>
+      <Name>LowLevel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\LowLevelAABB.vcxproj">
+      <Project>{AE43E26E-054F-3D61-93D8-8B5B90AED2E7}</Project>
+      <Name>LowLevelAABB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\LowLevelDynamics.vcxproj">
+      <Project>{5821F602-0B88-36A9-B5D3-20A56CF894FC}</Project>
+      <Name>LowLevelDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysX.vcxproj">
+      <Project>{08CAFCC2-E6AD-3CD4-AD98-A85D951B187D}</Project>
+      <Name>PhysX</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
+      <Project>{E01BBD29-E0D9-3FEF-B1FB-783260E97842}</Project>
+      <Name>PhysXCharacterKinematic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXCommon.vcxproj">
+      <Project>{D7B080D5-EF55-3238-A84C-B90BAE4BED89}</Project>
+      <Name>PhysXCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXCooking.vcxproj">
+      <Project>{A642A098-9B0C-329C-AD0E-CCA153916A1C}</Project>
+      <Name>PhysXCooking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{CDBD9E91-A9E4-3AA2-9C56-B47BD5F14348}</Project>
+      <Name>PhysXExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{77A303CA-9867-3469-BF9C-1AAAC63392F5}</Project>
+      <Name>PhysXFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{A0239BD0-DB04-33A8-8C5D-576A93D5E60F}</Project>
+      <Name>PhysXPvdSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXTask.vcxproj">
+      <Project>{7371E1AF-D9BC-31FE-92D9-502048623005}</Project>
+      <Name>PhysXTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\PhysXVehicle.vcxproj">
+      <Project>{AA5A4D5E-DFA4-3326-9D8E-89AF7327FB10}</Project>
+      <Name>PhysXVehicle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\SceneQuery.vcxproj">
+      <Project>{CE493B56-3B3F-3F61-BF4E-89B6DC6A9BFD}</Project>
+      <Name>SceneQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\compiler\vc17win64\sdk_source_bin\SimulationController.vcxproj">
+      <Project>{2EB3F510-59E2-3A86-873B-75B76E1C221F}</Project>
+      <Name>SimulationController</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

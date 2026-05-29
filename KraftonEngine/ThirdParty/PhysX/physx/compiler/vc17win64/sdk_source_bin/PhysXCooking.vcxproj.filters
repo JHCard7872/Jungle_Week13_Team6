@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\Adjacencies.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\Cooking.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\CookingUtils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\EdgeList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\MeshCleaner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\Quantizer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\BVHStructureBuilder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\HeightFieldCooking.cpp">
+      <Filter>src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\RTreeCooking.cpp">
+      <Filter>src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\MeshBuilder.cpp">
+      <Filter>src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\TriangleMeshBuilder.cpp">
+      <Filter>src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\GrbTriangleMeshCooking.cpp">
+      <Filter>src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\BigConvexDataBuilder.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexHullBuilder.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexHullLib.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexHullUtils.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexMeshBuilder.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexPolygonsBuilder.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\QuickHullConvexHullLib.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\VolumeIntegration.cpp">
+      <Filter>src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\windows\WindowsCookingDelayLoadHook.cpp">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\PxBVH33MidphaseDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\PxBVH34MidphaseDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\Pxc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\PxConvexMeshDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\PxCooking.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\PxMidphaseDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\PxTriangleMeshDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\include\cooking\PxBVHStructureDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\Adjacencies.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\Cooking.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\CookingUtils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\EdgeList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\MeshCleaner.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\Quantizer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\BVHStructureBuilder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\GrbTriangleMeshCooking.h">
+      <Filter>src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\HeightFieldCooking.h">
+      <Filter>src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\QuickSelect.h">
+      <Filter>src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\RTreeCooking.h">
+      <Filter>src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\MeshBuilder.h">
+      <Filter>src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\mesh\TriangleMeshBuilder.h">
+      <Filter>src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\BigConvexDataBuilder.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexHullBuilder.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexHullLib.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexHullUtils.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexMeshBuilder.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\ConvexPolygonsBuilder.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\QuickHullConvexHullLib.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\physxcooking\src\convex\VolumeIntegration.h">
+      <Filter>src\convex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\source\compiler\resource_x64\PhysXCooking.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{6C835633-DCEF-31D2-8C7C-C1A9E358DF05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{300E6197-0AB0-3DEE-A244-B00AC9B267B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{288BB3EB-95AA-3E30-9683-D7C5060A262A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\convex">
+      <UniqueIdentifier>{88A8BFD0-1815-3224-A3EB-6645820D6D3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mesh">
+      <UniqueIdentifier>{C732557E-F583-3F3E-9284-BB8654A502EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\windows">
+      <UniqueIdentifier>{CC61A41A-4398-3D30-8DD2-9923C434D6D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

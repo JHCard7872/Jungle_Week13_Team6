@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplebridges\SampleBridges.cpp">
+      <Filter>Sample bridges</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplebridges\SampleBridgesCCT.cpp">
+      <Filter>Sample bridges</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\Planet.cpp">
+      <Filter>Sample custom gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.cpp">
+      <Filter>Sample custom gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity_CCT.cpp">
+      <Filter>Sample custom gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityBuilder.cpp">
+      <Filter>Sample custom gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.cpp">
+      <Filter>Sample custom gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityFilterShader.cpp">
+      <Filter>Sample custom gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplehelloworld\SampleHelloWorld.cpp">
+      <Filter>Sample helloworld</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\ChunkLoader.cpp">
+      <Filter>Sample large world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\MeshBuilder.cpp">
+      <Filter>Sample large world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\SampleLargeWorld.cpp">
+      <Filter>Sample large world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\SampleLargeWorldCCT.cpp">
+      <Filter>Sample large world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPole.cpp">
+      <Filter>Sample north pole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPoleBuilder.cpp">
+      <Filter>Sample north pole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.cpp">
+      <Filter>Sample north pole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCCT.cpp">
+      <Filter>Sample north pole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPoleDynamics.cpp">
+      <Filter>Sample north pole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPoleFilterShader.cpp">
+      <Filter>Sample north pole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplesubmarine\Crab.cpp">
+      <Filter>Sample submarine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplesubmarine\SampleSubmarine.cpp">
+      <Filter>Sample submarine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicleDebugRender.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicleTerrain.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.cpp">
+      <Filter>Sample vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.cpp">
+      <Filter>Sample CCT shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.cpp">
+      <Filter>Sample CCT shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.cpp">
+      <Filter>Sample CCT shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.cpp">
+      <Filter>Sample CCT shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplebridges\SampleBridges.h">
+      <Filter>Sample bridges</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplebridges\SampleBridgesInputEventIds.h">
+      <Filter>Sample bridges</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplebridges\SampleBridgesSettings.h">
+      <Filter>Sample bridges</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\Planet.h">
+      <Filter>Sample custom gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.h">
+      <Filter>Sample custom gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.h">
+      <Filter>Sample custom gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityInputEventIds.h">
+      <Filter>Sample custom gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplehelloworld\SampleHelloWorld.h">
+      <Filter>Sample helloworld</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\ChunkLoader.h">
+      <Filter>Sample large world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\MeshBuilder.h">
+      <Filter>Sample large world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\SampleLargeWorld.h">
+      <Filter>Sample large world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplelargeworld\SampleLargeWorldInputEventIds.h">
+      <Filter>Sample large world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPole.h">
+      <Filter>Sample north pole</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.h">
+      <Filter>Sample north pole</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplenorthpole\SampleNorthPoleInputEventIds.h">
+      <Filter>Sample north pole</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplesubmarine\Crab.h">
+      <Filter>Sample submarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplesubmarine\SampleSubmarine.h">
+      <Filter>Sample submarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplesubmarine\SampleSubmarineInputEventIds.h">
+      <Filter>Sample submarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplesubmarine\SubmarineCameraController.h">
+      <Filter>Sample submarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicleInputEventIds.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.h">
+      <Filter>Sample vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.h">
+      <Filter>Sample CCT shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.h">
+      <Filter>Sample CCT shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.h">
+      <Filter>Sample CCT shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.h">
+      <Filter>Sample CCT shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jungle\source\repos\Jungle_Week13_Team6\KraftonEngine\ThirdParty\PhysX\physx\samples\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sample CCT shared">
+      <UniqueIdentifier>{B77594CE-0F0C-3C14-A1CE-A40489C532BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample bridges">
+      <UniqueIdentifier>{1A4C2B7F-5393-33F8-8C36-B47B5384CF2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample custom gravity">
+      <UniqueIdentifier>{6E107A25-68D5-3150-9337-51EA9D8D360C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample helloworld">
+      <UniqueIdentifier>{D9C472D5-C3CE-3892-B0CE-A47582F170B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample large world">
+      <UniqueIdentifier>{B42E910A-D290-3764-9D10-9A95DDACC332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample north pole">
+      <UniqueIdentifier>{870728CE-BA32-3020-AF15-3DF12F17D85D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample submarine">
+      <UniqueIdentifier>{A17590F8-285D-3D38-BB84-01725F444A4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample vehicle">
+      <UniqueIdentifier>{8E29D97E-3BB2-3EB1-A870-94750347D435}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -129,6 +129,7 @@ Intermediate/
 .idea_modules/
 # Rider 가 자동 생성하는 CMakeLists (의존성 다이어그램용)
 CMakeLists.txt
+!KraftonEngine/ThirdParty/PhysX/**/CMakeLists.txt
 
 # VS Code
 .vscode/*
